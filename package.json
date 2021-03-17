@@ -2,15 +2,25 @@
   "name": "nodejs-sequelize",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisalYun/nodejs-sequelize.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "sequelize": "^6.5.0",
-    "sqlite3": "^5.0.2"
-  }
+  "bugs": {
+    "url": "https://github.com/VisalYun/nodejs-sequelize/issues"
+  },
+  "homepage": "https://github.com/VisalYun/nodejs-sequelize#readme"
 }
